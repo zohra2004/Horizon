@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>HORIZON TRAVEL BUS STATION</title>
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="travel bus station.html"><img src="freepik-export-20240512212502wPEC.png" class="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                
+             
+                <ul>
+                    <li><div class="test" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100"><a href="travel bus station.html">HOME</a></div></li>
+                    <li><div class="test" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200"><a href="THE ABOUT US PAGE.html">ABOUT US</a></div></li>
+                    <li><div class="test" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300"><a href="THE FACILITIES.html">FACILITIES</a></div></li>
+                    <li><div class="test" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400"><a href="THE BLOG PAGE.html">BLOG</a></div></li>
+                    <li><div class="test" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="500"><a href="THE DESTINATIONS.html">DESTINATIONS</a></div></li>
+                    <li><div class="test" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600"><a href="TESTIMONIALS.html">TESTIMONIALS</a></div></li>
+                    <li><div class="test" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600"><a href="CONTACT US.html">CONTACT US</a></div></li>
+                  </ul>
+            </div>
+                
+            
+            <i class="fa fa-bars"onclick="ShowMenu()"></i>
+        </nav>
+       
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+       <h1>Contact Us</h1>
+
+    </section>
+    
+               <!------------------ CONTACT US ------------------>
+    <section class="location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d204627.70534926874!2d3.3041453282401907!3d36.739179979317946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128fb26977ea659f%3A0x4231102d38a36f49!2z2KfZhNis2LLYp9im2LE!5e0!3m2!1sar!2sdz!4v1715557056380!5m2!1sar!2sdz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> <!---for the location from google map--->
+
+    </section>
+    <section class="contactus">
+
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Avenue de l'ALN, Hussein Dey</h5>
+                        <p>Caroubier,Algérie</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+213 0777665544</h5>
+                        <p>(Sunday - Thursday) 7h00 - 19h00,(Friday & Saturday) 8h00 - 14h00</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>Horizon@gmail.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+
+
+            </div>
+            <div class="contact-col">
+
+               <form action="form.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email"name="email" placeholder="Enter email address" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <textarea rows="8" name="message" placeholder="Message"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>           
+                           
+        </div>
+
+    </section>
+   
+   
+
+             <!-------------------another section ----------------->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>Connecting people and places, that's what HORIZON BUS STATION is all about. <br> We're proud to be a part of the local community, providing convenient and affordable transportation options for residents and visitors alike. <br> Whether you're traveling for business or pleasure, we're here to help you reach your destination safely and efficiently.</p>
+       <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+       </div>   
+        <p>Made With   <i class="fa fa-heart-o"></i> Easy Tutorials</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             <!--JavaScript for Toggle menu-->
+            
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function ShowMenu(){
+            navLinks.style.right ="0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-230px";
+        }
+    </script>
+    
+</body>
+</html>
